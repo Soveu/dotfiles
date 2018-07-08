@@ -1,0 +1,7 @@
+xf86-video-intel
+intel-ucode
+alsa-utils
+pulseaudio
+pulseaudio-alsa
+tp_acpi
+

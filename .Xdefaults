@@ -1,0 +1,45 @@
+! urxvt
+*foreground: #ffffff
+#*letterSpacing: -1
+#*font: xft:DejaVu Sans Mono:pixelsize=11
+*font: xft:Dina:pixelsize=6
+*depth: 32p
+*background: rgba:0000/0000/0000/c800
+#*background: rgb:00/00/00
+*borderless: true
+*scrollBar: false
+
+*foreground:            #ccddee
+*cursorColor:           #ffffff
+
+!! black dark/light
+*color0:                #000000
+*color8:                #003030
+
+!! red dark/light
+*color1:                #ff322f
+*color9:                #ee6b16
+
+!! green dark/light
+*color2:                #00aa33
+*color10:               #11ff55
+
+!! yellow dark/light
+*color3:                #eaea36
+*color11:               #fafa00
+
+!! blue dark/light
+*color4:                #265bff
+*color12:               #78baff
+
+!! magenta dark/light
+*color5:                #d33682
+*color13:               #f44792
+
+!! cyan dark/light
+*color6:                #14c8ca
+*color14:               #36fafe
+
+!! white dark/light
+*color7:                #cbcbcb
+*color15:               #fefefe
