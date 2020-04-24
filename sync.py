@@ -23,15 +23,22 @@ TARGETS = {
     ],
 }
 
+def rev_pair(pair):
+    return (pair[1], pair[0])
+
+def copy_verbose(pair):
+    print(f"Copying '{pair[0]}' to '{pair[1]}'")
+    return shutil.copy2(pair[0], pair[1])
+
 def pull(target):
     print(f"Pulling {target}")
     for pair in TARGETS[target]:
-        shutil.copy2(pair[1], pair[0])
+        copy_verbose(rev_pair(pair))
 
 def push(target):
     print(f"Pushing {target}")
     for pair in TARGETS[target]:
-        shutil.copy2(pair[0], pair[1])
+        copy_verbose(pair)
 
 if sys.argv[1] == "push":
     push(sys.argv[2])
