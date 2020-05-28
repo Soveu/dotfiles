@@ -8,6 +8,7 @@ set encoding=utf-8
 set number relativenumber
 set splitbelow splitright
 set expandtab softtabstop=2 shiftwidth=2
+set nowrapscan
 
 filetype plugin on
 "filetype indent on
