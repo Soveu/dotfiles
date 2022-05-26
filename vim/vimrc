@@ -7,8 +7,9 @@ set nocompatible
 set encoding=utf-8
 set number relativenumber
 set splitbelow splitright
-set expandtab softtabstop=2 shiftwidth=2
+set expandtab softtabstop=4 shiftwidth=4
 set nowrapscan
+set tw=90
 
 "filetype plugin on
 "filetype indent on
@@ -16,6 +17,6 @@ syntax on
 
 map <C-j> <C-W>j
 map <C-h> <C-W>h
-map <C-l> <C-W>k
+map <C-k> <C-W>k
 map <C-l> <C-W>l
 
